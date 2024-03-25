@@ -1,0 +1,102 @@
+
+body{
+	background-color: #FFF4E0;	
+	font-family: "raleway", sans-serif;
+}
+
+img{
+	max-width: 100%;
+}
+
+/*Text Elements*/
+
+
+h1, h2{	
+	
+	font-family: "Bagel Fat One", sans-serif;
+
+}
+
+h3, h4, h5, h6, p{
+	font-family: "raleway", sans-serif;
+
+}
+
+h1{
+	margin:0;
+	font-size: 48px;
+}
+
+
+
+code{
+	background-color: lightgrey;
+	padding: 0.5em 1em 0.5em 1em;
+}
+
+
+/*Interactive Elements*/
+a{
+	font-weight: bold;
+	color:#20209B;
+	text-decoration: none;
+}
+
+a:hover, a:focus{
+	color: #FF970C;
+	transition: color 0.25s ease-out;	
+}
+
+.button{
+	background-color:#20209B;
+	color:white;
+	padding:0.5em;
+	border-radius: 15px;
+}
+
+.button:hover, .button:focus{
+	background-color: #FF970C;
+	color:white;
+	transition: background-color 0.25s ease-out;
+}
+
+/*Section/Area Styling*/
+
+section{
+	border-bottom:solid black 3px;
+	margin:2em 0 1.5em 0;
+}
+
+.basicBox{
+	background-color: white;
+	margin:1.5em 0.5em 1.5em 0.5em;
+	padding:1em;
+	border:solid black 2px;
+	border-radius: 25px;
+	max-width:75%;
+}
+
+.colorBox{
+	margin:0.5em 1em 0.5em 1em;
+	padding:2em;
+	border-radius: 25px;
+}
+
+.midnight{
+	background-color: #0F0F35;
+	color:white;
+}
+
+.navy{
+	background-color: #20209B;
+	color:white;
+}
+
+.orange{
+	background-color: #FF970C;
+	color:white;
+}
+
+.lgtCream{
+	background-color: #FFF4E0;
+}
